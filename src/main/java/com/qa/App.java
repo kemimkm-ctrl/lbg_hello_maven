@@ -12,11 +12,10 @@ public class App
         System.out.println(sayHelloToSomeone("Kemi"));
         System.out.println(sayHelloToSomeone("Kemi is great"));
         System.out.println(sayHelloToSomeone("say goodbye"));
-         System.out.println(sayHelloToSomeone("Everyone"));
+        System.out.println(sayHelloToSomeone("Everyone"));
+        System.out.println(sayHelloToSomeone("pommy"));
         System.out.println(sayHelloToSomeone("bye"));
         System.out.println(sayGoodbye());
-
-    
     }
 
     public static String sayHello(){
