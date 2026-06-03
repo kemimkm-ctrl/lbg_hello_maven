@@ -16,20 +16,23 @@ public class App
         System.out.println(sayHelloToSomeone("pommy"));
         System.out.println(sayHelloToSomeone("bye"));
         System.out.println(sayGoodbye());
+        System.out.println(doNotSayGoodbye());
+        
     }
 
     public static String sayHello(){
         return "Hello World!";
     }
 
-    public static String sayGoodbye(){
+    public static String doNotSayGoodbye(){
         return "Do not say Goodbye World!";
     }
-    }
+    
 
     public static String sayGoodbye(){
         return "Goodbye World!";
     }
+
     public static String sayHelloToSomeone(String name){
         return "Hello " + name ;
     }
